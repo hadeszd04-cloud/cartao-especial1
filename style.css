@@ -13,7 +13,6 @@ body {
 }
 
 
-/* Card Container */
 .birthdayCard {
     width: 300px;
     height: 400px;
@@ -28,7 +27,6 @@ body {
     transform: perspective(1200px) rotateY(180deg);
 }
 
-/* Front of Card */
 .cardFront, .cardInside {
     position: absolute;
     width: 100%;
@@ -83,7 +81,6 @@ body {
     font-size: 30px;
 }
 
-/* Inside of Card */
 .cardInside {
     background-color: #ffffff;
     transform: rotateY(180deg);
